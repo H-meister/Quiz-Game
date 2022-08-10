@@ -8,7 +8,7 @@ body {
 /* adding some spacing */
 ul {
     padding: auto;
-    margin-top: 400px;
+    margin-top: 300px;
 }
 /* removing pesky bullets in the list elements */
 ul li {
