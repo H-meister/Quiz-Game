@@ -1,0 +1,26 @@
+/* adding styles to the body */
+body {
+    display: flex;
+    background-color: beige;
+    justify-content: center;
+    align-content: center;
+}
+/* adding some spacing */
+ul {
+    padding: auto;
+    margin-top: 400px;
+}
+/* removing pesky bullets in the list elements */
+ul li {
+    text-align: center;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+/* making the initial button */
+ul li button{
+    background-color: darkolivegreen;
+    color: white;
+    margin-top: 20px;
+    padding: 0px 50px 0px 50px;
+}
