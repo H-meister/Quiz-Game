@@ -10,24 +10,105 @@
 </head>
 <!-- setting up initial quiz screne -->
 <body>
-    <div id="startUp">
-        <ul><h1>Hello and welcome to my FUN Quiz!~</h1>
-            <li></li>
-            <li>Here you will Take a breif quiz to test your skills!</li>
-            <li></li>
-            <li>Are you prepared for the challenge?</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li><button id="myBtn" type ="button">Click Here!</button></li>
-        </ul>
+    <div class="container">
+    <div id="startUp" class="startpage">
+        <h1>Hello and welcome to my FUN Quiz!~</h1>
+        <p>Here You will be challeneged in Javascript are you ready?!</p>         
+        <button id="myBtn" type ="button">Click Here!</button>
+        </div>
         </div>
 <!-- adding a first page quiz -->
-        <div class="firstPage" style="display:none;">
-            <ul><h1>First Question</h1>
-                <li>This means that this is working</li>
-            </ul>
+        <div class="firstQuestion" style="display:none;">
+            <hi>Quiz!</hi>
+            <ul><h1>1. Question : Javascript is an _______ language?</h1>
+                <li href="#" class="correct" >A. Object-Oriented</li>
+                <li href="#" class="wrong">B. Object-Based</li>
+                <li href="#" class="wrong">C. Procedural</li>
+                <li href="#" class="wrong">D. None of the above</li>
+         </ul>
+        </div>
+
+        <!-- adding second question -->
+        <div class="secondQuestion" style="display:none;">
+            <ul><h1>2. Question : Which of the following keywords is used to define a variable in Javascript?</h1>
+                <li href="#" >A. var</li>
+                <li href="#" >B. let</li>
+                <li href="#" class="twocorrect" >C. Both A and B</li>
+                <li href="#" >D. None of the above</li>
+         </ul>
+        </div>
+        <!-- Third Question -->
+        <div class="thirdQuestion" style="display:none;">
+            <ul><h1>3. Question : 
+                Which of the following methods is used to access HTML elements using Javascript? </h1>
+                <li href="#" >A. getElementById()</li>
+                <li href="#" >B. getElementByClassName()</li>
+                <li href="#" class="threecorrect">C. Both A and B</li>
+                <li href="#" >D. None of the above</li>
+         </ul>
+        </div>
+        <!-- fourth Question -->
+        <div class="fourthQuestion" style="display:none;">
+            <ul><h1>4. Question : Which of the following methods can be used to display data in some form using Javascript?</h1>
+                <li href="#" >A. document.write()</li>
+                <li href="#" >B. console.log()</li>
+                <li href="#" >C. window.alert()</li>
+                <li href="#" class="fourcorrect">D. all of the above</li>
+         </ul>
+        </div>
+        <!-- fifth question -->
+        <div class="fifthQuestion" style="display:none;">
+            <ul><h1>5. Question : Upon encountering empty statements, what does the Javascript Interpreter do?</h1>
+                <li href="#" >A. Throws an error</li>
+                <li href="#" class="fivecorrect">B. Ignores the statements</li>
+                <li href="#" >C. Gives a warning</li>
+                <li href="#" >D. None of the above</li>
+         </ul>
+        </div>
+        <!-- sixth question -->
+        <div class="sixthQuestion" style="display:none;">
+            <ul><h1>6. Question : How can a datatype be declared to be a constant type?</h1>
+                <li href="#" class="sixcorrect">A. const</li>
+                <li href="#" >B. var</li>
+                <li href="#" >C. let</li>
+                <li href="#" >D. constant</li>
+         </ul>
+        </div>
+        <!-- seventh question -->
+        <div class="seventhQuestion" style="display:none;">
+            <ul><h1>7. Question : When the switch statement matches the expression with the given labels, how is the comparison done?</h1>
+                <li href="#" class="sevencorrect">A. Both the datatype and the result of the expression are compared.</li>
+                <li href="#" >B. Only the datatype of the expression is compared.</li>
+                <li href="#" >C. Only the value of the expression is compared.</li>
+                <li href="#" >D. None of the above</li>
+         </ul>
+        </div>
+        <!-- eight question -->
+        <div class="eighthQuestion" style="display:none;">
+            <ul><h1>8. Question : What keyword is used to check whether a given property is valid or not?</h1>
+                <li href="#" class="eightcorrect">A. in</li>
+                <li href="#" >B. is in</li>
+                <li href="#" >C. exists</li>
+                <li href="#" >D. lies</li>
+         </ul>
+        </div>
+        <!-- ninth question -->
+        <div class="ninthQuestion" style="display:none;">
+            <ul><h1>9. Question : What is the use of the &lt;noscript&gt; tag in Javascript?</h1>
+                <li href="#" class="ninecorrect">A. The contents are siaplyed by non-JS based browsers.</li>
+                <li href="#" class="wrong">B. Clears all the cookies and cache</li>
+                <li href="#" class="wrong">C. Both A and B</li>
+                <li href="#" class="wrong">D. None of the above</li>
+         </ul>
+        </div>
+        <!-- tenth question -->
+        <div class="tenthQuestion" style="display:none;">
+            <ul><h1>10. Question : When an operator’s value is NULL, the typeof returned by the unary operator is:</h1>
+                <li href="#" >A. Boolean</li>
+                <li href="#" >B. Undefined</li>
+                <li href="#" class="tencorrect">C. Object</li>
+                <li href="#" >D. Integer</li>
+         </ul>
         </div>
 <script src="./assets/js/script.js"></script>
 </body>
