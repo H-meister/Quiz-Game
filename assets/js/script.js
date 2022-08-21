@@ -19,6 +19,12 @@ var displayPageOne = function(){
         pageOne.style.display ="none";
         displayPageTwo();
     })
+    //not working correctly for some reason
+    var incorrectAnswer = document.querySelector('.wrong')
+    incorrectAnswer.addEventListener('click', function(){
+        window.alert('You answered incorrectly. Try again.')
+        displayPageOne();
+    })
 }
 
 var displayPageTwo = function(){
