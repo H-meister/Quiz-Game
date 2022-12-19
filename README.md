@@ -11,7 +11,7 @@
    ## 📚Description
    #### This is a little javascript game made to test your knowledge of javascript. Answer the 10 questions in this cool quiz game!
 
-   ![cool little picture](./src/picture/Screenshot%202022-12-19%20173907.png)
+   ![cool little picture](./assets/pic/Screenshot%202022-12-19%20173907.png)
    ---
    ## 🔑Installation
    #### Simple javascript project no installation needed. 
