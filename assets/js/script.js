@@ -10,6 +10,7 @@ var pageSeven = document.querySelector('.seventhQuestion')
 var pageEight = document.querySelector('.eighthQuestion')
 var pageNine = document.querySelector('.ninthQuestion')
 var pageTen = document.querySelector('.tenthQuestion')
+let finished = document.querySelector('.finishingScreen')
 
 
 var displayPageOne = function(){
@@ -108,6 +109,8 @@ var displayPageTen = function(){
     })
 }
 
+let finishedQuiz = () => finished.style.display = "";
+
 var startQuiz = function() {
     btnStart.addEventListener('click', function(){
         //when button is clicked I want to start a timer using window.setTimeout(function,time)
@@ -116,5 +119,6 @@ var startQuiz = function() {
         displayPageOne();
     })
 }
+
 
 startQuiz();
